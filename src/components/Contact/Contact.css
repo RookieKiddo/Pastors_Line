@@ -1,0 +1,27 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.contact:hover {
+  background-color: #f8f9fa;
+}
+
+.contact-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contact-phone {
+  font-size: 14px;
+  color: #555;
+}
+
+.contact-email {
+  font-size: 14px;
+  color: #777;
+}
